@@ -1,10 +1,96 @@
-Developed a full-stack Todo application with a Java backend that allows users to manage tasks efficiently. Supports creating, editing, completing, and deleting tasks with real-time UI updates. All actions are persisted in the database through RESTful APIs, ensuring synchronization between frontend and backend.
+# ✅ Task Tracker - Full Stack Todo Application
 
-Tech: Java, Spring Boot, Spring Data JPA, H2 Database, Maven, JavaScript, HTML, CSS
+A full-stack **Todo Application** with a Java backend that allows users to manage tasks efficiently.  
+Users can **create, edit, mark as complete, and delete tasks** with real-time UI updates.  
+All actions are persisted in the database via **RESTful APIs**, ensuring synchronization between frontend and backend.
 
-Future Enhancements:
-  Add task scheduling so users can set reminders or due dates for tasks.
-  Implement real-time notifications via email or SMS when tasks are due or completed.
-  Deploy the application to cloud platforms (e.g., Google Cloud Run, AWS, or Heroku) for 24/7 availability.
-  Separate completed and pending tasks in different sections for better UX.
-  Integrate persistent database storage (MySQL/PostgreSQL) for production readiness.
+---
+
+## 🚀 Features
+
+- ➕ Add new tasks  
+- ✏️ Edit existing tasks  
+- ✅ Mark tasks as completed  
+- ❌ Delete tasks  
+- 🔄 Real-time UI updates  
+- 💾 Database persistence using RESTful APIs  
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend:** Java, Spring Boot, Spring Data JPA  
+**Database:** H2 Database (in-memory, dev mode)  
+**Frontend:** JavaScript, HTML, CSS  
+**Build Tool:** Maven  
+
+---
+
+## 📂 Project Structure
+
+Task-Tracker/
+│
+│── backend/                        # Java Spring Boot Backend
+│   ├── src/main/java/com/tasktracker/
+│   │   ├── controller/
+│   │   │   └── TodoController.java       # Handles REST API endpoints
+│   │   ├── service/
+│   │   │   └── TodoService.java          # Business logic
+│   │   ├── model/
+│   │   │   └── Todo.java                 # Entity class (represents Task table)
+│   │   ├── repository/
+│   │   │   └── TodoRepo.java       # JPA Repository interface
+│   │   └── ToDoSpringApplication.java   # Main Spring Boot entry point
+│   │
+│   ├── src/main/resources/
+│   │   └── application.properties        # Database & Server configurations
+│   │
+│   └── pom.xml                           # Maven dependencies
+│
+│── frontend/                      # Static Frontend (HTML, CSS, JS)
+│   ├── todo.html
+│   ├── liststyle.css
+│   └── todo.js
+│
+└── README.md
+
+⚙️ Installation & Setup
+1. Clone the repository
+git clone https://github.com/leelamadhav07/Task-Tracker.git
+cd Task-Tracker
+
+2. Run Backend (Spring Boot)
+cd backend
+mvn spring-boot:run
+
+
+Backend will start at 👉 http://localhost:8080
+
+3. Run Frontend
+
+Simply open the todo.html file in your browser (or use VS Code Live Server).
+The frontend will interact with backend APIs in real-time.
+
+🌟 Future Enhancements:-
+
+⏰ Add task scheduling (due dates, reminders)
+📩 Email/SMS notifications when tasks are due or completed
+☁️ Deploy on cloud (Google Cloud Run, AWS, or Heroku)
+🗂️ Separate completed & pending tasks in UI
+🛢️ Switch to persistent database (MySQL/PostgreSQL) for production
+
+🤝 Contribution 
+
+Fork this repository
+Create your feature branch (git checkout -b feature-name)
+Commit your changes (git commit -m "Added new feature")
+Push to the branch (git push origin feature-name)
+Open a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License
+
+👨‍💻 Author
+
+Developed by Leela Madhav
