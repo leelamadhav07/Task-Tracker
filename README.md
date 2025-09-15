@@ -28,41 +28,40 @@ All actions are persisted in the database via **RESTful APIs**, ensuring synchro
 
 ## 📂 Project Structure
 
-```bash
 Task-Tracker/
 │
-├── backend/                        # Java Spring Boot Backend
-│   ├── src/main/java/com/tasktracker/
-│   │   ├── controller/
-│   │   │   └── TodoController.java       # Handles REST API endpoints
-│   │   ├── service/
-│   │   │   └── TodoService.java          # Business logic
-│   │   ├── model/
-│   │   │   └── Todo.java                 # Entity class (represents Task table)
-│   │   ├── repository/
-│   │   │   └── TodoRepo.java             # JPA Repository interface
-│   │   └── ToDoSpringApplication.java    # Main Spring Boot entry point
-│   │
-│   ├── src/main/resources/
-│   │   └── application.properties        # Database & Server configurations
-│   │
-│   └── pom.xml                           # Maven dependencies
+├── backend/ # Java Spring Boot Backend
+│ ├── src/main/java/com/tasktracker/
+│ │ ├── controller/
+│ │ │ └── TodoController.java # Handles REST API endpoints
+│ │ ├── service/
+│ │ │ └── TodoService.java # Business logic
+│ │ ├── model/
+│ │ │ └── Todo.java # Entity class (represents Task table)
+│ │ ├── repository/
+│ │ │ └── TodoRepo.java # JPA Repository interface
+│ │ └── ToDoSpringApplication.java # Main Spring Boot entry point
+│ │
+│ ├── src/main/resources/
+│ │ └── application.properties # Database & Server configurations
+│ │
+│ └── pom.xml # Maven dependencies
 │
-├── frontend/                             # Frontend (HTML, CSS, JS)
-│   ├── todo.html
-│   ├── liststyle.css
-│   └── todo.js
+├── frontend/ # Frontend (HTML, CSS, JS)
+│ ├── todo.html
+│ ├── liststyle.css
+│ └── todo.js
 │
 └── README.md
 
-⚙️ Installation & Setup
+---
 
-Clone the repository
+## ⚙️ Installation & Setup
 
+**Clone the repository**  
+```bash
 git clone https://github.com/leelamadhav07/Task-Tracker.git
 cd Task-Tracker
-
-
 Run Backend (Spring Boot)
 
 cd backend
@@ -78,7 +77,6 @@ Simply open todo.html in your browser
 Or use VS Code Live Server for live updates
 
 The frontend will interact with backend APIs in real-time.
-
 🌟 Future Enhancements
 
 ⏰ Add task scheduling (due dates, reminders)
@@ -111,7 +109,6 @@ git push origin feature-name
 
 
 Open a Pull Request
-
 📜 License
 
 This project is licensed under the MIT License.
