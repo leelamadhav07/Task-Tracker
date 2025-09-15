@@ -28,6 +28,7 @@ All actions are persisted in the database via **RESTful APIs**, ensuring synchro
 
 ## 📂 Project Structure
 
+```bash
 Task-Tracker/
 │
 │── backend/                        # Java Spring Boot Backend
@@ -39,15 +40,15 @@ Task-Tracker/
 │   │   ├── model/
 │   │   │   └── Todo.java                 # Entity class (represents Task table)
 │   │   ├── repository/
-│   │   │   └── TodoRepo.java       # JPA Repository interface
-│   │   └── ToDoSpringApplication.java   # Main Spring Boot entry point
+│   │   │   └── TodoRepo.java             # JPA Repository interface
+│   │   └── ToDoSpringApplication.java    # Main Spring Boot entry point
 │   │
 │   ├── src/main/resources/
 │   │   └── application.properties        # Database & Server configurations
 │   │
 │   └── pom.xml                           # Maven dependencies
 │
-│── frontend/                      # Static Frontend (HTML, CSS, JS)
+│── frontend/                             # Static Frontend (HTML, CSS, JS)
 │   ├── todo.html
 │   ├── liststyle.css
 │   └── todo.js
@@ -55,42 +56,66 @@ Task-Tracker/
 └── README.md
 
 ⚙️ Installation & Setup
-1. Clone the repository
+
+Clone the repository
+
 git clone https://github.com/leelamadhav07/Task-Tracker.git
 cd Task-Tracker
 
-2. Run Backend (Spring Boot)
+
+Run Backend (Spring Boot)
+
 cd backend
 mvn spring-boot:run
 
 
 Backend will start at 👉 http://localhost:8080
 
-3. Run Frontend
+Run Frontend
 
-Simply open the todo.html file in your browser (or use VS Code Live Server).
+Simply open todo.html in your browser
+
+Or use VS Code Live Server for better development experience
+
 The frontend will interact with backend APIs in real-time.
 
-🌟 Future Enhancements:-
+🌟 Future Enhancements
 
 ⏰ Add task scheduling (due dates, reminders)
+
 📩 Email/SMS notifications when tasks are due or completed
+
 ☁️ Deploy on cloud (Google Cloud Run, AWS, or Heroku)
+
 🗂️ Separate completed & pending tasks in UI
+
 🛢️ Switch to persistent database (MySQL/PostgreSQL) for production
 
-🤝 Contribution 
+🤝 Contribution
 
 Fork this repository
-Create your feature branch (git checkout -b feature-name)
-Commit your changes (git commit -m "Added new feature")
-Push to the branch (git push origin feature-name)
+
+Create your feature branch:
+
+git checkout -b feature-name
+
+
+Commit your changes:
+
+git commit -m "Added new feature"
+
+
+Push to the branch:
+
+git push origin feature-name
+
+
 Open a Pull Request
 
 📜 License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
 
 👨‍💻 Author
 
-Developed by Leela Madhav
+Developed by S.Leela Madhav
