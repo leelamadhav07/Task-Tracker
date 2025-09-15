@@ -13,7 +13,7 @@ All actions are persisted in the database via **RESTful APIs**, ensuring synchro
 - ✅ Mark tasks as completed  
 - ❌ Delete tasks  
 - 🔄 Real-time UI updates  
-- 💾 Database persistence using RESTful APIs  
+- 💾 Persistent storage using RESTful APIs  
 
 ---
 
@@ -28,10 +28,10 @@ All actions are persisted in the database via **RESTful APIs**, ensuring synchro
 
 ## 📂 Project Structure
 
-
+```bash
 Task-Tracker/
 │
-│── backend/                        # Java Spring Boot Backend
+├── backend/                        # Java Spring Boot Backend
 │   ├── src/main/java/com/tasktracker/
 │   │   ├── controller/
 │   │   │   └── TodoController.java       # Handles REST API endpoints
@@ -48,14 +48,14 @@ Task-Tracker/
 │   │
 │   └── pom.xml                           # Maven dependencies
 │
-│── frontend/                             # Static Frontend (HTML, CSS, JS)
+├── frontend/                             # Frontend (HTML, CSS, JS)
 │   ├── todo.html
 │   ├── liststyle.css
 │   └── todo.js
 │
 └── README.md
 
-##⚙️ Installation & Setup
+⚙️ Installation & Setup
 
 Clone the repository
 
@@ -75,11 +75,11 @@ Run Frontend
 
 Simply open todo.html in your browser
 
-Or use VS Code Live Server for better development experience
+Or use VS Code Live Server for live updates
 
 The frontend will interact with backend APIs in real-time.
 
-##🌟 Future Enhancements
+🌟 Future Enhancements
 
 ⏰ Add task scheduling (due dates, reminders)
 
@@ -91,23 +91,31 @@ The frontend will interact with backend APIs in real-time.
 
 🛢️ Switch to persistent database (MySQL/PostgreSQL) for production
 
-##🤝 Contribution
+🤝 Contribution
 
 Fork this repository
 
 Create your feature branch:
+
 git checkout -b feature-name
 
+
 Commit your changes:
+
 git commit -m "Added new feature"
 
+
 Push to the branch:
+
 git push origin feature-name
+
 
 Open a Pull Request
 
-##📜 License
+📜 License
+
 This project is licensed under the MIT License.
 
-##👨‍💻 Author
+👨‍💻 Author
+
 Developed by Leela Madhav
