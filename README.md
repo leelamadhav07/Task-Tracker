@@ -57,27 +57,21 @@ Task-Tracker/
 ```
 ## ⚙️ Installation & Setup
 
-Clone the repository
-
+### 1. Clone the repository
+```bash
 git clone https://github.com/leelamadhav07/Task-Tracker.git
 cd Task-Tracker
-
-
-Run Backend (Spring Boot)
-
+```
+### 2. Run Backend (Spring Boot)
+```bash
 cd backend
 mvn spring-boot:run
+```
+The backend will start at 👉 http://localhost:8080
+### 3. Run Frontend
+  Simply open todo.html in your browser
 
-
-Backend will start at 👉 http://localhost:8080
-
-Run Frontend
-
-Simply open todo.html in your browser
-
-Or use VS Code Live Server for live updates
-
-The frontend will interact with backend APIs in real-time.
+  Or use VS Code Live Server for live updates
 
 ## 🌟 Future Enhancements
 
@@ -93,24 +87,23 @@ The frontend will interact with backend APIs in real-time.
 
 ## 🤝 Contribution
 
-Fork this repository
+Contributions are welcome! Follow these steps to contribute:
 
-Create your feature branch:
+1. **Fork the repository**  
 
+2. **Create your feature branch**  
+```bash
 git checkout -b feature-name
-
-
-Commit your changes:
-
+```
+3. **Commit your changes**
+```bash
 git commit -m "Added new feature"
-
-
-Push to the branch:
-
+```
+4. **Push to your branch**
+```bash
 git push origin feature-name
-
-
-Open a Pull Request
+```
+5. **Open a Pull Request**
 
 ## 📜 License
 
