@@ -1,34 +1,23 @@
-# ✅ Task Tracker - Full Stack Todo Application
+✅ Task Tracker - Full Stack Todo Application
 
-A full-stack **Todo Application** with a Java backend that allows users to manage tasks efficiently.  
-Users can **create, edit, mark as complete, and delete tasks** with real-time UI updates.  
-All actions are persisted in the database via **RESTful APIs**, ensuring synchronization between frontend and backend.
+A sleek and interactive Todo Application built with Java, Spring Boot, and a simple frontend using HTML, CSS, and JavaScript.
+It allows users to create, edit, mark as complete, and delete tasks with real-time updates, and all data is stored via RESTful APIs.
 
----
+🚀 Features
 
-## 🚀 Features
+➕ Add new tasks
 
-- ➕ Add new tasks  
-- ✏️ Edit existing tasks  
-- ✅ Mark tasks as completed  
-- ❌ Delete tasks  
-- 🔄 Real-time UI updates  
-- 💾 Database persistence using RESTful APIs  
+✏️ Edit existing tasks
 
----
+✅ Mark tasks as completed
 
-## 🛠️ Tech Stack
+❌ Delete tasks
 
-**Backend:** Java, Spring Boot, Spring Data JPA  
-**Database:** H2 Database (in-memory, dev mode)  
-**Frontend:** JavaScript, HTML, CSS  
-**Build Tool:** Maven  
+🔄 Real-time UI updates
 
----
+💾 Persistent storage using RESTful APIs
 
-## 📂 Project Structure
-
-```bash
+📂 Project Structure
 Task-Tracker/
 │
 │── backend/                        # Java Spring Boot Backend
@@ -48,14 +37,14 @@ Task-Tracker/
 │   │
 │   └── pom.xml                           # Maven dependencies
 │
-│── frontend/                             # Static Frontend (HTML, CSS, JS)
+│── frontend/                             # Frontend files
 │   ├── todo.html
 │   ├── liststyle.css
 │   └── todo.js
 │
 └── README.md
 
-⚙️ Installation & Setup
+⚙️ Setup & Usage
 
 Clone the repository
 
@@ -63,7 +52,7 @@ git clone https://github.com/leelamadhav07/Task-Tracker.git
 cd Task-Tracker
 
 
-Run Backend (Spring Boot)
+Run Backend
 
 cd backend
 mvn spring-boot:run
@@ -75,9 +64,21 @@ Run Frontend
 
 Simply open todo.html in your browser
 
-Or use VS Code Live Server for better development experience
+Or use VS Code Live Server for live updates
 
-The frontend will interact with backend APIs in real-time.
+🌟 API Integration
+
+The backend exposes RESTful APIs for managing tasks:
+
+GET /api/todos → Get all tasks
+
+POST /api/todos → Create a new task
+
+PUT /api/todos/{id} → Update a task
+
+DELETE /api/todos/{id} → Delete a task
+
+The frontend interacts with these APIs automatically in real-time.
 
 🌟 Future Enhancements
 
@@ -91,24 +92,18 @@ The frontend will interact with backend APIs in real-time.
 
 🛢️ Switch to persistent database (MySQL/PostgreSQL) for production
 
-🤝 Contribution
+🤝 Contributing
 
-Fork this repository
+Contributions are welcome! To contribute:
 
-Create your feature branch:
+Fork the repository
 
-git checkout -b feature-name
+Create a new branch
 
-
-Commit your changes:
-
-git commit -m "Added new feature"
+git checkout -b feature/your-feature
 
 
-Push to the branch:
-
-git push origin feature-name
-
+Commit your changes
 
 Open a Pull Request
 
@@ -118,4 +113,4 @@ This project is licensed under the MIT License.
 
 👨‍💻 Author
 
-Developed by S.Leela Madhav
+Developed by Leela Madhav ✨ If you like this project, consider giving it a ⭐ on GitHub!
