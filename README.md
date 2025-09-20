@@ -111,4 +111,4 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Developed by S.Leela Madhav
+Developed by S.Leela Madhav ✨ If you like this project, consider giving it a ⭐ on GitHub!
